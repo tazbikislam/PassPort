@@ -142,31 +142,72 @@ passport
 ## Project Structure
 
 ```
-PassPort/
-├── passport/                    
-│   ├── authentication/          
-│   │   └── auth_manager.py      
-│   ├── security/                
-│   │   ├── encryption.py        
-│   │   ├── sanitizer.py         
-│   │   ├── rate_limiter.py      
-│   │   └── auditor.py           
-│   ├── password/                
-│   │   ├── manager.py           
-│   │   ├── generator.py         
-│   │   └── tracker.py           
-│   ├── cli/                     
-│   │   ├── commands.py          
-│   │   └── interactive.py       
-│   └── utils/                   
-│       └── animations.py        
-├── icons/                       
-├── setup.py                     
-├── requirements.txt             
-├── .env.example                 
-├── .gitignore                   
-├── LICENSE                      
-└── README.md                    
+.
+├── create_passport_icon.py
+├── icons
+│   ├── passport-128.png
+│   ├── passport-16.png
+│   ├── passport-22.png
+│   ├── passport-24.png
+│   ├── passport-32.png
+│   ├── passport-48.png
+│   ├── passport-64.png
+│   ├── passport-96.png
+│   ├── passport.png
+│   └── passport-tray.png
+├── images
+│   ├── 1.png
+│   ├── 2.png
+│   ├── 3.png
+│   └── 4.png
+├── LICENSE
+├── passport
+│   ├── authentication
+│   │   ├── auth_manager.py
+│   │   ├── init.py
+│   │       └── auth_manager.cpython-314.pyc
+│   ├── cli
+│   │   ├── commands.py
+│   │   ├── init.py
+│   │   ├── interactive.py
+│   │       ├── commands.cpython-314.pyc
+│   │       └── interactive.cpython-314.pyc
+│   ├── config.py
+│   ├── init.py
+│   ├── main.py
+│   ├── password
+│   │   ├── generator.py
+│   │   ├── init.py
+│   │   ├── manager.py
+│   │   ├── __pycache__
+│   │   │   ├── generator.cpython-314.pyc
+│   │   │   ├── manager.cpython-314.pyc
+│   │   │   └── tracker.cpython-314.pyc
+│   │   └── tracker.py
+│   │   ├── config.cpython-314.pyc
+│   │   └── main.cpython-314.pyc
+│   ├── security
+│   │   ├── auditor.py
+│   │   ├── encryption.py
+│   │   ├── init.py
+│   │   │   ├── auditor.cpython-314.pyc
+│   │   │   ├── encryption.cpython-314.pyc
+│   │   │   ├── rate_limiter.cpython-314.pyc
+│   │   │   └── sanitizer.cpython-314.pyc
+│   │   ├── rate_limiter.py
+│   │   └── sanitizer.py
+│   └── utils
+│       ├── animations.py
+│       ├── init.py
+│           └── animations.cpython-314.pyc
+├── passport.key
+├── passport-launcher.sh
+├── passport.log
+├── passport.sh
+├── passwords.enc
+├── requirements.txt
+└── setup.py
+
 ```
 
 ---
