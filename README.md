@@ -1,9 +1,9 @@
 # PassPort - Passwords & Portability
 
-![Python](<https://img.shields.io/badge/Python-3.8+-blue.svg>)
-![License](<https://img.shields.io/badge/License-MIT-green.svg>)
-![Status](<https://img.shields.io/badge/Status-Active-brightgreen.svg>)
-![Platform](<https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg>)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
+![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)
 
 > **Encrypt, manage, and carry your passwords everywhere securely.**
 
@@ -69,7 +69,7 @@ Most password managers either store your data in the cloud or are complicated to
 
 ```bash
 # Clone the repository
-git clone <https://github.com/tazbikislam/PassPort.git>
+git clone https://github.com/tazbikislam/PassPort.git>
 cd PassPort
 
 # Create virtual environment
@@ -83,7 +83,7 @@ pip install -e .
 ### Install From The Source
 
 ```bash
-git clone <https://github.com/tazbikislam/PassPort.git>
+git clone https://github.com/tazbikislam/PassPort.git>
 cd PassPort
 pip install -r requirements.txt
 python -m passport.main
@@ -95,12 +95,12 @@ python -m passport.main
 
 ```bash
 # Run PassPort
-PassPort
+passport
 
 # Then:
 # 1. Create app master login password (to open PassPort)
 # 2. Create master encryption password (to secure your vault)
-# 3. Run PassPort again and enter your master login password to enter.
+# 3. Run passport again and enter your master login password to enter.
 ```
 
 ---
@@ -115,7 +115,7 @@ PassPort
 
 ##
 
-<p align="center">
+<p>
   <img src="passport/images/2.png" alt="Adding Password" width="70%">
   <br>
   <em>Fig 2: Adding a new password</em>
@@ -123,7 +123,7 @@ PassPort
 
 ##
 
-<p align="center">
+<p>
   <img src="passport/images/3.png" alt="Security Audit" width="70%">
   <br>
   <em>Fig 3: Security Auditing</em>
@@ -131,7 +131,7 @@ PassPort
 
 ##
 
-<p align="center">
+<p>
   <img src="passport/images/4.png" alt="Generating Password" width="70%">
   <br>
   <em>Fig 4: Generating a Random Secure Password option</em>
@@ -173,7 +173,7 @@ PassPort/
 
 ## License
 
-This project is licensed under the MIT License [LICENSE]([https://www.notion.so/LICENSE](https://github.com/tazbikislam/PassPort/blob/main/LICENSE))
+This project is licensed under the MIT License [LICENSE](https://github.com/tazbikislam/PassPort/blob/main/LICENSE)
 
 **Free for personal and commercial use.**
 
