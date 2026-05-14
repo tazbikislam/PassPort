@@ -134,7 +134,7 @@ passport
 <p>
   <img src="passport/images/4.png" alt="Generating Password" width="70%">
   <br>
-  <em>Fig 4: Generating a Random Secure Password option</em>
+  <em>Fig 4: Generating a Random Secure Password</em>
 </p>
 
 ---
