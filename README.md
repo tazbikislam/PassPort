@@ -69,7 +69,7 @@ Most password managers either store your data in the cloud or are complicated to
 
 ```bash
 # Clone the repository
-git clone https://github.com/tazbikislam/PassPort.git>
+git clone https://github.com/tazbikislam/PassPort.git
 cd PassPort
 
 # Create virtual environment
@@ -83,7 +83,7 @@ pip install -e .
 ### Install From The Source
 
 ```bash
-git clone https://github.com/tazbikislam/PassPort.git>
+git clone https://github.com/tazbikislam/PassPort.git
 cd PassPort
 pip install -r requirements.txt
 python -m passport.main
