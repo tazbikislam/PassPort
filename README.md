@@ -105,7 +105,7 @@ passport
 
 ---
 
-## Application User Interface View
+## Application User Interface
 
 <p>
   <img src="passport/images/1.png" alt="Main Menu" width="70%">
