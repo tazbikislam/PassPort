@@ -215,4 +215,4 @@ This project is licensed under the MIT License [LICENSE](https://github.com/tazb
 
 ## Contact
 
-- **Email**: [tazbikislam.work@gmail.com](mailto:tazbikislam.work@gmail.com)
+- **Email**: [tazbik.tahsin.islam@gmail.com](mailto:tazbik.tahsin.islam@gmail.com)
